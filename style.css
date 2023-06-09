@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+  position: relative;
+  width: 1600px;
+  height: 2348px;
+
+  background: #ffffff;
+}
+
+/* LOGO */
+.web_logo {
+  color: #2196f3;
+  line-height: 30.52px;
+  font-weight: 700;
+  font-family: Raleway;
+}
+a.logo {
+  color: #000000;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35.96px;
+  letter-spacing: 0.03em;
+  font-family: Oleo Script;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+
+/* NAVbar */
+nav {
+  /* Las aqua pentru a diferentia de restul div */
+  /* background: aqua; */
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  position: absolute;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0, 5px;
+}
+
+/* NAV Buttons */
+#Portfolio {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 545px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+#Contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 653px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+#Studio {
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+#mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1097px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+#tel {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 1272px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.navbar_btn:hover,
+.navbar_btn.active {
+  background: none;
+  color: #2196f3;
+}
