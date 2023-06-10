@@ -79,6 +79,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color:black;
 }
 #Studio {
   position: absolute;
@@ -92,6 +93,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color:black;
 }
 
 #mail {
@@ -106,7 +108,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color:black;
 }
 
 #tel {
