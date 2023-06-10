@@ -4,7 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  
 }
 body {
   font-family: montserrat;
@@ -79,7 +78,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color:black;
+  color: black;
 }
 #Studio {
   position: absolute;
@@ -93,7 +92,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color:black;
+  color: black;
 }
 
 #mail {
@@ -108,7 +107,7 @@ nav ul li {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color:black;
+  color: black;
 }
 
 #tel {
@@ -134,7 +133,7 @@ nav ul li {
 /* HEAD */
 
 .head {
-   background-color: #2f303a; 
+  background-color: #2f303a;
   position: absolute;
   width: 1600px;
   height: 600px;
@@ -191,7 +190,7 @@ nav ul li {
   border-radius: 4px;
 }
 
-.article{
+.article {
   position: absolute;
   width: 1170px;
   height: 101px;
@@ -200,86 +199,79 @@ nav ul li {
   margin-top: -40px;
 }
 
-.card-set{
+.card-set {
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
-list-style: none;
-
+  list-style: none;
 }
 
-.item{
+.item {
   flex-basis: calc((100% - 20px) / 5);
-  
+
   padding: 5px;
   margin-right: 30px;
   background-color: #ffffff;
-  
-
 }
 
-.item h2{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-width: 270px;
-height: 16px;
+.item h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  width: 270px;
+  height: 16px;
 }
-.item p{
+.item p {
   padding-top: 10px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-position: absolute;
-width: 270px;
-height: 75px;
-padding-right: 30px;
-
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-
-.what_we_do{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
   position: absolute;
-width: 1170px;
-height: 386px;
-left: 215px;
-top: 969px;
+  width: 270px;
+  height: 75px;
+  padding-right: 30px;
 
+  letter-spacing: 0.03em;
 
+  color: #757575;
 }
-#group1_title{
 
-/* position: absolute; */
-width: 198px;
-height: 42px;
-left: 701px;
-top: 969px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-color: #212121;
-margin: auto;
-margin-bottom: 50px;
-
+.what_we_do {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
 }
-.img-set{
+#group1_title {
+  /* position: absolute; */
+  width: 198px;
+  height: 42px;
+  left: 701px;
+  top: 969px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.img-set {
   display: flex;
- margin: auto;
+  margin: auto;
 }
 
-.img-set li{
+.img-set li {
   margin-right: 30px;
 }
