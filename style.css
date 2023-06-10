@@ -37,8 +37,6 @@ a.logo {
 
 /* NAVbar */
 nav {
-  /* Las aqua pentru a diferentia de restul div */
-  /* background: aqua; */
   height: 80px;
   width: 100%;
 }
@@ -189,7 +187,7 @@ nav ul li {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
+/* GROUP1 */
 .article {
   position: absolute;
   width: 1170px;
@@ -243,7 +241,7 @@ nav ul li {
 
   color: #757575;
 }
-
+/* WHATWEDO */
 .what_we_do {
   position: absolute;
   width: 1170px;
@@ -274,4 +272,56 @@ nav ul li {
 
 .img-set li {
   margin-right: 30px;
+}
+/* FOOTER */
+footer {
+  position: absolute;
+width: 1600px;
+height: 251px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+
+footer ul{
+position: absolute;
+width: 231px;
+height: 72px;
+left: 215px;
+top: 119px;
+}
+
+footer ul li{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+
+address{
+  color: #FFFFFF;
+  width: 207px;
+  height: 16px;
+}
+#tel1{
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+height: 16px;
+}
+#mail1{
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+height: 16px;
+}
+
+.logo1{
+  padding-top: 40px;
+}
+
+a.logo1{
+  color: #ffffff;
 }
