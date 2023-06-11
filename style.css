@@ -325,3 +325,65 @@ height: 16px;
 a.logo1{
   color: #ffffff;
 }
+
+/* OUR TEAM */
+
+section{
+  position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+text-align: center;
+background: #F5F4FA;
+padding-top: 94px;
+
+}
+.team{
+  display: flex;
+  position: relative;
+width: 1170px;
+height: 368px;
+margin: auto;
+padding-top: 50px;
+
+}
+.card{
+  background-color: #ffffff;
+  margin: auto;
+  width: 270px;
+height: 368px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+h5{
+
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+letter-spacing: 0.03em;
+
+color: #212121;
+padding: 10px;
+}
+
+section img{
+  padding-bottom: 20px;
+}
